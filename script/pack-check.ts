@@ -63,8 +63,8 @@ const THRESHOLDS = {
   maxFiles: 12,
   // WORD/delimited text objects add a packaged resolver module plus README surface.
   // Keep budgets tight enough to catch accidental docs/tests in the package.
-  maxSize: 31000,
-  maxUnpackedSize: 136000,
+  maxSize: 36000,
+  maxUnpackedSize: 155000,
 } as const;
 
 function compareStrings(a: string, b: string): number {
